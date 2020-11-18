@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="planiranjeNastavnik.css">
+    <title>Planiranje Nastavnik</title>
+</head>
+<body>
+   <ul class="lista">
+        <a href="raspored.html"> Raspored</a>
+        <a href="aktivnost.html">Aktivnosti</a>
+        <a href="planiranjeNastavnik.html">Planiranje Nastavnik</a>
+        <a href="podaciStudent.html">Podaci Student</a>
+    </ul>
+    
+<div class = "glavni">
+
+<div class = "labe">
+    <label class="bela">Naziv predmeta:</label>
+    <br><br>
+    <label class="bela" for="tip">Tip:</label>
+    <br><br>
+    <label class="bela" for = "vrijeme">Vrijeme pocetka:</label>
+    <br><br>
+    <label class="bela" for="vrijeme1">Vrijeme kraja:</label>
+    <br><br>
+    <label class="bela" for="sedmica"> Dan u sedmici:</label>
+
+</div>
+
+<div class="inp">
+<input type="text" id="naziv" class ="polja">
+<br><br>
+    
+    <select name="Tip" id="tip" class ="polja">
+        <option value="Predavanje">predavanje</option>
+        <option value="vjezbe">vjezbe</option>
+    </select>
+    <br><br>
+    <input type="time" id = "vrijeme" class ="polja">
+    <br><br>
+    <input type="time" id = "vrijeme1" class ="polja">
+    <br><br>
+    <select name="Dan u sedmici" id = "sedmica" class ="polja">
+        <option value="Ponedjeljak">Ponedjeljak</option>
+        <option value="Utorak">Utorak</option>
+        <option value="Srijeda">Srijeda</option>
+        <option value="Cetvrtak">Cetvrtak</option>
+        <option value="Petak">Petak</option>
+        <option value="Subota">Subota</option>
+        <option value="Nedjelja">Nedjelja</option>
+    </select>
+
+</div>
+    
+</div> 
+
+
+<div class="glavni2">
+
+    <div class="fild">
+        <label class="bela">Naziv predmeta:</label>
+        <br><br>
+        <input type="text" id="naziv" class ="polja">
+        <br><br>
+    </div>
+
+    <div class="fild">
+        <label class="bela" for="tip">Tip:</label>
+        <br><br>
+        <select name="Tip" id="tip" class ="polja" class="tp">
+            <option value="Predavanje">predavanje</option>
+            <option value="vjezbe">vjezbe</option>
+        </select>
+        <br><br>
+    </div>
+
+    <div class="fild">
+        <label class="bela" for = "vrijeme">Vrijeme pocetka:</label>
+        <br><br>
+        <input type="time" id = "vrijeme" class ="polja">
+        <br><br>
+    </div>
+
+    <div class="fild">
+        <label class="bela" for="vrijeme1">Vrijeme kraja:</label>
+        <br><br>
+        <input type="time" id = "vrijeme1" class ="polja">
+        <br><br>
+    </div>
+
+    <div class="fild">
+        <label class="bela" for="sedmica"> Dan u sedmici:</label>
+        <br><br>
+        <select name="Dan u sedmici" id = "sedmica" class ="polja" class="tp">
+            <option value="Ponedjeljak">Ponedjeljak</option>
+            <option value="Utorak">Utorak</option>
+            <option value="Srijeda">Srijeda</option>
+            <option value="Cetvrtak">Cetvrtak</option>
+            <option value="Petak">Petak</option>
+            <option value="Subota">Subota</option>
+            <option value="Nedjelja">Nedjelja</option>
+        </select>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>

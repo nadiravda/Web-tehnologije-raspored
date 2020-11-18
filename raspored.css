@@ -1,0 +1,94 @@
+
+
+th, td{
+    background-color: papayawhip;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    max-width: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table h1{
+    font-size: 18px;
+    margin: 0;
+}
+
+table p{
+    margin: 0;
+    
+}
+
+.full{
+    background-color: lightblue;
+    border-right: 1px solid black !important;
+    border-left: 1px solid black !important;
+}
+
+a{
+    padding: 2%;
+    margin-left: 20px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+
+.full-cool{
+    background-color: lightblue;
+    border-right: 1px dashed black !important;
+}
+
+.full-sarma{
+    background-color: lightblue;
+    border-left: 1px dashed black !important;
+}
+
+.bezobraznik{
+    border-left: 1px dashed black !important;
+}
+
+td:nth-child(odd){
+    border-left: 1px dashed black;
+}
+td:nth-child(even){
+    border-right: 1px dashed black;
+}
+
+td:first-child{
+    border-left: none;
+}
+
+
+
+.times td{
+    height: 30px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: white;
+}
+
+td{
+    width: 15px;
+    height: 115px;
+}
+
+.dani{
+    background-color: white;
+    border: none;
+    max-width: fit-content;
+}
+
+.sarma{
+display: flex;
+flex-direction: row;
+
+}
+

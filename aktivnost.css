@@ -1,0 +1,106 @@
+body{
+    font-family: Corbel;
+    height: 100vh;
+    background: rgb(180,199,220);
+    background: linear-gradient(180deg, rgba(180,199,220,1) 0%, rgba(214,224,235,1) 100%);
+}
+
+.main-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 20vw;
+    padding: 5% 15%;
+}
+
+.side-div{
+    margin: 0 1vw;
+    margin-top: auto;
+    height: 80%;
+    flex: 28%;
+    border: 3px solid #5B83B5;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.side-div h2{
+    font-size: 1.2vw;
+    background-color: #BBCCDF;
+    color: #3E6FA3;
+    position: relative;
+    width: 12vw;
+    top: -0.8vw;
+    margin: 0 auto;
+}
+
+.side-div h1, .main-div h1{
+    font-size: 2.2vw;
+    margin: 10%;
+    color: #3E6FA3;
+}
+
+.side-div p, .main-div p{
+    font-size: 1vw;
+    color: #3E6FA3;
+}
+
+.main-div{
+    flex: 35%;
+    height: 98%;
+    border: 3px solid #5B83B5;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.main-div h2{
+    font-size: 1.3vw;
+    background-color: #B8CADE;
+    color: #3E6FA3;
+    position: relative;
+    width: 12vw;
+    top: -0.9vw;
+    margin: 0 auto;
+}
+
+a{
+    padding: 2%;
+    margin-left: 20px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main-div{
+        margin-bottom: 4%;
+        flex: 100%;
+    }
+    .main-row{
+        flex-direction: column;
+        height: auto;
+    }
+    .prethodna{
+        display: none;
+    }
+    .sljedeca{
+        flex: 100%;
+    }
+    .main-row h2{
+        font-size: 3vw;
+        width: 28vw;
+        top: -2.2vw;
+    }
+    .main-row h1{
+        font-size: 4vw;
+        margin: 1vw;
+    }
+    .main-row p{
+        font-size: 3vw;
+    }
+    
+    a{
+        font-size: 15px;
+    }
+
+}
