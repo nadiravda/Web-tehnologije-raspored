@@ -39,20 +39,6 @@ a{
 }
 
 
-.full-cool{
-    background-color: lightblue;
-    border-right: 1px dashed black !important;
-}
-
-.full-sarma{
-    background-color: lightblue;
-    border-left: 1px dashed black !important;
-}
-
-.bezobraznik{
-    border-left: 1px dashed black !important;
-}
-
 td:nth-child(odd){
     border-left: 1px dashed black;
 }
@@ -65,19 +51,22 @@ td:first-child{
 }
 
 
-
-.times td{
+.times td {
     height: 30px;
     border-left: none;
     border-top: none;
     border-right: none;
     border-bottom: none;
     background-color: white;
+
 }
+
 
 td{
     width: 15px;
     height: 115px;
+    text-align:center;
+
 }
 
 .dani{
@@ -92,3 +81,6 @@ flex-direction: row;
 
 }
 
+p{
+    font-size: 11px;
+}
