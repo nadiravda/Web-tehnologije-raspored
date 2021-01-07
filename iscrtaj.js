@@ -31,7 +31,6 @@ function iscrtajRaspored(div,dani,satPocetak,satKraj){
                satiKolona.innerHTML = poc + ":00";
          }
 
-
          if (poc > 14 && poc % 2 === 1)
             satiKolona.innerHTML = poc + ":00";
 
@@ -56,7 +55,9 @@ function iscrtajRaspored(div,dani,satPocetak,satKraj){
                kolonaDani.classList.add("dani");
                kolonaDani.innerHTML = dani[i];
                row.appendChild(kolonaDani);
-            } else {
+            }
+
+            else {
 
                let column = document.createElement("td");
 
