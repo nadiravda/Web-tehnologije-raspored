@@ -110,7 +110,6 @@ aplikacija.get('/predmet/:naziv/aktivnost/', function (req, res) {
         let fajl = fs.readFileSync('predmeti.txt').toString().split("\n");
         let noviRed = pred['naziv'] + "\n";
         if(!fajl.includes(pred['naziv'])){
-
             fs.appendFile('predmeti.txt', noviRed ,function(err){
                 if(err) throw err;
                 res.json({message:"Uspješno dodan predmet!"});
