@@ -1,0 +1,3 @@
+# Web-tehnologije-raspored
+
+Raspored za predmete i vjezbe radjen koristeci javascript, node, (orm) sequelize kao alat za rad sa bazom, HTML/CSS...
